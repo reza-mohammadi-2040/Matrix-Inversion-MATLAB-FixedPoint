@@ -1,9 +1,7 @@
 # Matrix-Inversion-MATLAB-FixedPoint
 A MATLAB implementation of matrix inversion using QR decomposition and Givens rotation, designed for hardware-oriented applications with fixed-point arithmetic support.
 This project presents a MATLAB-based simulation of matrix inversion algorithms suitable for hardware (FPGA/ASIC) implementation. The main goal of this work is to study and evaluate the feasibility of matrix inversion in fixed-point arithmetic, which is essential for efficient and practical realization in digital hardware systems.
-
 Matrix inversion is a fundamental operation in various signal processing and communication applications, but its direct implementation in hardware is challenging due to numerical instability and high computational complexity. Therefore, this project explores a hardware-friendly approach using **QR decomposition via Givens rotations**, followed by **back-substitution**, to realize matrix inversion in a stable and efficient manner.
-
 To accurately simulate the constraints and behaviors of real digital hardware, **fixed-point arithmetic** is employed using MATLAB's Fixed-Point Designer Toolbox. Additionally, **SQNR (Signal-to-Quantization-Noise Ratio)** is calculated to assess the precision and performance of the fixed-point implementation compared to the floating-point reference.
 ---------------------------------------------------------
 ### Reference Paper
