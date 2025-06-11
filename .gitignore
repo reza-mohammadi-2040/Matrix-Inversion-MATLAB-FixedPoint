@@ -1,0 +1,24 @@
+# Ignore backup and autosave files
+.asv
+.m~
+.mlx.backup
+
+# Ignore MATLAB workspace and figures
+.mat
+.fig
+.mdl
+.slx
+
+# Ignore Simulink cache and code generation files
+slprj
+sfunctions
+sfprj
+_grt_rtw
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+.log
+.tmp
